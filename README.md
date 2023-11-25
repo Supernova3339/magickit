@@ -6,11 +6,18 @@
 
 ## Installation
 
-You can install the package via composer:
+This preset is intended to be installed into a fresh [Laravel application](https://laravel.com).
+
+After creating a new Laravel application you can install MagicKit with the following commands:
 
 ```bash
-composer require supernova3339/magickit
+composer require superova3339/magickit dev-main
+php artisan ui magickit
+npm install
+npm run dev
 ```
+
+Finally, you'll want to connect a database inside of your application `.env` file for authentication.
 
 ### Testing
 
