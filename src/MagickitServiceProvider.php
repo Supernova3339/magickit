@@ -14,7 +14,7 @@ class MagickitServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        UiCommand::macro('genesis', function ($command) {
+        UiCommand::macro('magickit', function ($command) {
             MagicKitPreset::install();
             $command->info('MagicKit starter kit installed successfully.');
         });
