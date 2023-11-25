@@ -17,11 +17,6 @@ class MagicKitPreset extends Preset
         'tailwindcss' => '^3.3.3',
     ];
 
-    const NPM_PACKAGES_TO_REMOVE = [
-        'lodash',
-        'axios',
-    ];
-
     public static function install()
     {
         static::updatePackages();
@@ -33,8 +28,7 @@ class MagicKitPreset extends Preset
     protected static function updatePackageArray(array $packages)
     {
         return array_merge(
-            static::NPM_PACKAGES_TO_ADD,
-            Arr::except($packages, static::NPM_PACKAGES_TO_REMOVE)
+            static::NPM_PACKAGES_TO_ADD
         );
     }
 
