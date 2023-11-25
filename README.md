@@ -11,7 +11,7 @@ This preset is intended to be installed into a fresh [Laravel application](https
 After creating a new Laravel application you can install MagicKit with the following commands:
 
 ```bash
-composer require superova3339/magickit
+composer require supernova3339/magickit
 php artisan ui magickit
 npm install
 npm run dev
