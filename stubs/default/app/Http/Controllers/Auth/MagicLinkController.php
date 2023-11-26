@@ -1,11 +1,11 @@
 <?php
 
-namespace app\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
-use app\Notifications\Auth\MagicLink;
-use app\Providers\RouteServiceProvider;
+use App\Notifications\Auth\MagicLink;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;

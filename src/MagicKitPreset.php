@@ -16,6 +16,7 @@ class MagicKitPreset extends Preset
         'autoprefixer' => '^10.4.14',
         'tailwindcss' => '^3.3.3',
         'axios' => '^1.6.2',
+        'postcss' => '^8.4.6',
     ];
 
     public static function install()
