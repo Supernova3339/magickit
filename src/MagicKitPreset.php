@@ -17,6 +17,8 @@ class MagicKitPreset extends Preset
         'tailwindcss' => '^3.3.3',
         'axios' => '^1.6.2',
         'postcss' => '^8.4.6',
+        'laravel-vite-plugin': '^1.0.2',
+        'vite': '^5.1.4',
     ];
 
     public static function install()
