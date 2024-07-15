@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/supernova3339/magickit.svg?style=flat-square)](https://packagist.org/packages/supernova3339/magickit)
 [![Total Downloads](https://img.shields.io/packagist/dt/supernova3339/magickit.svg?style=flat-square)](https://packagist.org/packages/supernova3339/magickit)
-![GitHub Actions](https://github.com/supernova3339/magickit/actions/workflows/main.yml/badge.svg)
 
 ## Installation
 
